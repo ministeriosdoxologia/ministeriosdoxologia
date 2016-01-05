@@ -1,0 +1,196 @@
+/***** global styles *****/
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+section {
+  padding: 100px 0;
+}
+.header-padding {
+  padding-top: 50px;
+}
+.thumbnail {
+  border: 0 none;
+  box-shadow: none;
+  background-color: transparent;
+}
+
+/***** navbar *****/
+
+.navbar-default .navbar-brand {
+  color: #fff;
+  font-family: helvetica;
+}
+
+/***** sections *****/
+
+#welcome {
+  background-color: #fff;
+}
+#welcome p {
+  color: gray;
+}
+#publications {
+  background-color: #2980b9;
+}
+#publications h1 {
+  color: #fff;
+  font-style: helvetica;
+}
+#publications h2 {
+  color: #fff;
+  font-style: helvetica;
+}
+#publications h4 {
+  color: #fff;
+  font-style: helvetica;
+}
+#publications p {
+  color: #fff;
+  font-style: helvetica;
+}
+#blog {
+  background-color: #bdc3c7;
+}
+#blog h1 {
+  padding-top: 30px;
+  font-size: 70px;
+  font-weight: bold;
+}
+#community {
+  background-color: #000;
+}
+#community h1 {
+  color: white;
+}
+#community h4 {
+  color: white;
+  font-style: italic;
+}
+#church {
+  background-color: #fff;
+}
+.church {
+  max-width: 200px;
+}
+
+/***** footer *****/
+
+footer {
+  padding: 100px 0;
+  background-color: black;
+  color: white;
+}
+footer h5 {
+  color: gray;
+}
+
+/***** parallax background ******/
+
+section.module.parallax {
+  height: 600px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+section.module.parallax-small {
+  height: 400px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+}
+section.module.parallax h1 {
+  color: #fff;
+  font-size: 70px;
+  padding-top: 100px;
+  line-height: 80px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* ministerios doxologia main-page parallax background images */
+
+
+/* home image */
+
+section.module.parallax-home-img {
+  background-image: url(../img/worship.jpeg);
+}
+
+/* blog image */
+
+section.module.parallax-blog-img {
+  background-image: url(../img/mountains.jpg);
+  opacity: .8;
+}
+
+/* community image */
+
+section.module.parallax-community-img {
+  background-image: url(../img/sanantonio.jpg);
+}
+
+/* el camino image */
+
+section.module.parallax-elcamino {
+  background-image: url(../img/worship.jpeg);
+}
+
+/* gozo y paz image */
+
+section.module.parallax-gozoypaz {
+  background-image: url(../img/worship.jpeg);
+}
+
+/****** iglesia el camino ******/
+
+
+/* sections */
+
+#ec-welcome {
+  background-color: #ecf0f1;
+}
+#ec-pastors {
+  background-color: #2c3e50;
+  color: #fff;
+}
+#ec-locations {
+  background-color: #ecf0f1;
+}
+#ec-events {
+  background-color: #7f8c8d;
+  color: #fff;
+}
+#ec-ministries {
+  background-color: #2980b9;
+  color: #fff;
+}
+
+/****** iglesia gozo y paz ******/
+
+
+/* sections */
+
+#gp-welcome {
+  background-color: #ecf0f1;
+}
+#gp-pastors {
+  background-color: #2c3e50;
+  color: #fff;
+}
+#go-locations {
+  background-color: #ecf0f1;
+}
+#gp-events {
+  background-color: #7f8c8d;
+  color: #fff;
+}
+#gp-ministries {
+  background-color: #2980b9;
+  color: #fff;
+}

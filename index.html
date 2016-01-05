@@ -1,0 +1,114 @@
+<!-- Copyright 2016, Ministerios Doxologia -->
+
+<!DOCTYPE html>
+<html ng-app="app">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>ICECSA</title>
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <!-- global style sheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<!-- body -->
+
+<body ng-controller="home">
+
+  <!-- navigation bar -->
+  <nav class="navbar navbar-inverse navbar-default navbar-fixed-top">
+    <div class="container">
+
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#/">Ministerios Doxologia</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#/">Home</a></li>
+          <li><a href="#/">Blog</a></li>
+          <!-- <li>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">More</a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Iglesia Gozo y Paz</a></li>
+              <li><a href="#">Iglesia El Camino</a></li>
+            </ul>
+          </li> -->
+        </ul>
+      </div>
+
+    </div>
+
+  </nav>
+
+  <!-- ui view container -->
+  <div id="main">
+    <div ui-view autoscroll="true"></div>
+  </div>
+
+  <!-- footer -->
+  <footer class="text-center">
+
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <h4>Ministerios</h4>
+          <a href="#/gozoypaz">
+            <h5>Iglesia Gozo y Paz</h5>
+          </a>
+          <a href="#/elcamino">
+            <h5>Iglesia El Camino</h5>
+          </a>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <h4>Media</h4>
+          <a href="#/radio">
+            <h5>Radio</h5>
+          </a>
+          <a href="#/media">
+            <h5>Sermon</h5>
+          </a>
+          <h5>Blog</h5>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <h4>Contacto</h4>
+          <h5>Oracion</h5>
+          <h5></h5>
+        </div>
+      </div>
+    </div>
+
+    <h4>Ministerios Doxologia</h4>
+    <i class="fa fa-youtube-square fa-2x"> </i>
+    <i class="fa fa-facebook-official fa-2x"> </i>
+  </footer>
+
+  <!-- javascript -->
+
+  <!-- angular js -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+  <!-- anguarl ui router -->
+  <script src="lib/angular-ui-router.js"></script>
+  <!-- main js -->
+  <script src="js/main.js"></script>
+  <!-- controllers js -->
+  <script src="js/controllers.js"></script>
+
+</body>
+
+</html>
